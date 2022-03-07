@@ -11,7 +11,7 @@ export class FormComponent implements OnInit {
   submitIt: (taskForm:any) => void;
   @Output() submitEvent = new EventEmitter<Appointment>();
   taskInput: string = "";
-  checkbox: any = {checked:false};
+  checkbox: any;
   dateInput: string = "";
   
   constructor() {
