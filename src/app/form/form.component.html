@@ -1,0 +1,30 @@
+<div id="form-component">
+    <form id="task-form" #taskForm="ngForm" (ngSubmit)="submit(taskForm)">
+
+    <label for="taskInput">Task</label>
+    <br/>
+    <input required [(ngModel)]="taskInput" ngModel name="taskInput"   class="user-text-input" id="taskInput" placeholder="Add Task" />
+    <br/>
+    <br/>
+
+    <label  for="dateInput">Day & Time</label>
+    <br/>
+    <input required [(ngModel)]="dateInput" ngModel type="datetime-local" name="dateInput"  class="user-text-input" id="dateInput" placeholder="Add Day & Time"/>
+    <br/>
+    <br/>
+    
+    <div id="checkboxEl">
+    <label for="checkbox">Set Reminder</label>
+    <input id="checkbox" [(ngModel)]="checkbox" type="checkbox">
+    <br/>
+    <br/>
+     
+
+    </div>
+    
+    <!-- <button (click)="buttonClicked($event)">Save Task</button> -->
+    <button>Save Task</button>
+</form>
+
+
+</div>

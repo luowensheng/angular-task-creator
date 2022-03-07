@@ -1,0 +1,16 @@
+.appointment-name {
+    font-weight: bold;
+}
+
+
+.appointment { 
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    border-top: 1px solid white;
+    margin-left: -10px;
+    margin-right: 10px;
+    background-color:rgb(222, 228, 226);
+
+}

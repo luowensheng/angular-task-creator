@@ -1,0 +1,23 @@
+
+#appointment-component ul {
+    width: 100%;
+    list-style-type: none;
+}
+
+#appointment-component li {
+    margin-bottom: 5px;
+    margin-left: -40px;
+    padding-left: 20px;
+}
+
+
+
+#appointment-component {
+    margin-top: 30px;   
+    display: flex;
+    border:1px solid;
+    overflow:scroll;
+    max-height: 250px;
+    min-height: 250px;
+}
+
